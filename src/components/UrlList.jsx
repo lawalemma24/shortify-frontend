@@ -22,7 +22,8 @@ const UrlList = () => {
   const [searchTerm, setSearchTerm] = useState('');
 
   // const BASE_URL = "https://url-website-server.vercel.app";
-  const BASE_URL = "http://localhost:3000";
+  // const BASE_URL = "http://localhost:3000";
+  const BASE_URL = "https://shortify-backend-psi.vercel.app"
 
   useEffect(() => {
     fetchUrls();
